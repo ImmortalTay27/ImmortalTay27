@@ -1,0 +1,235 @@
+/* 																<Tay's Custom Style Sheet> 																	*/
+
+/*<Font>*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+/* <Body> */	
+
+
+body {  	
+	font-family: "Helvetica", sans-serif;
+	color: white;
+	margin: 0;
+	background-color: black;
+}			
+
+h1 h2{ 	
+	font-family: "Savate", sans-serif;
+	color: white;
+	font-weight: bold;
+}			
+
+/* <Header> */
+	
+
+header{ 	
+	font-family: "Savate", sans-serif;
+	color: white;
+	text-align: center;
+}			
+
+.header-style{
+    background: linear-gradient(to top, #000000 0%, #0000ff 100%);
+}
+
+/* <Website Links> */
+
+						
+a:link{	
+	color:red;
+	text-decoration: none;	
+}		
+
+
+a:visited{
+	color:red;	
+}
+
+
+a:hover{
+	color:yellow;	
+}
+
+
+a:active{
+	color: white;	
+}
+
+
+/* <Navagation> */
+
+
+nav{		
+	padding: 15px;
+	border-bottom: 5px solid white;
+	border-top: 5px solid white;
+
+}
+
+
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	margin:8px 0;
+	padding: 0;
+}
+
+
+nav li{
+	display:inline;
+	padding:5px;
+}
+
+
+/* <Navagation Links> */
+
+
+nav a:link{	
+	color:white;
+}
+
+
+nav a:visited{
+	color:white;
+}
+
+
+nav a:hover{
+	color:lightblue;
+}
+
+
+nav a:active{
+	color:red;
+}
+
+/* <Main> */
+
+main{
+	max-width:1200px;
+	margin: 0 auto;
+	padding:10px;
+}
+
+.hero-image{
+	border: 20px dashed red;
+	border-radius:12px;
+	margin:0 auto;
+	height:400px;
+}
+
+
+main .fa{
+	font-size: 5em;
+	color: red;
+	margin:0;
+}
+
+.text-row{
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	padding: 1.5rem;
+	border-left: 5px solid red; 
+	border-right: 5px solid red; 
+	background-color:black ;
+	color:white;
+	border-radius:12px;
+}
+
+
+/* <Footer> */
+
+
+footer{
+	border-top: 5px solid white;
+	color: white;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+footer a:link{	
+	color:white;
+}		
+
+
+footer a:visited{
+	color:white;	
+}
+
+
+footer a:hover{
+	color:lightblue;	
+}
+
+
+footer a:active{
+	color: red;	
+}
+
+
+.footer-style{
+	background: linear-gradient(to bottom, #000000 0%, #0000ff 100%);
+	text-align: left;
+}
+
+
+/*Photo Gallery*/
+
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+/* <CSS without a media query--applies to all sizes unless overridden> */
+
+
+h1{
+	font-size: 4em;
+}
+
+
+
+/*<CSS Adjustments for Tablets>*/
+
+
+@media only screen and (max-width: 1024px) {
+
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+
+
+/* <CSS Adjustments for Smartphones> */
+@media only screen and (max-width: 768px) {
+
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
+/*													   <Tay's Custom Style Sheet> 																					*/

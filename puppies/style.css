@@ -1,0 +1,228 @@
+/*<Font>*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+/*</Font>*/
+
+/* <Body> */
+body {  
+	font-family: "Josefin Sans", sans-serif;
+	color: black;
+	margin: 0;
+	background-color: none;
+	background: linear-gradient(to bottom left, #66ffff 0%, #cc66ff 100%);
+
+}	
+
+/* </Body> */
+
+/* <Header> */
+header{ 
+	text-align: center;
+	background-color: lightblue;
+	color: deepskyblue;
+	background: linear-gradient(to top, #660066 14%, #cc9900 100%);
+}
+
+header h1{
+	color: deeppink;
+}
+
+/* <Header> */
+
+/* <Website Links except the nav> */	
+a:link{
+	color:deeppink;	
+	text-decoration: none;
+}		
+
+a:visited{
+	color:deeppink;	
+}
+
+a:hover{
+	color:black;	
+}
+
+a:active{
+	color: red;	
+}
+
+/* </Website Links except the nav> */	
+
+/* <Navagation> */
+nav{
+ 	background: linear-gradient(to top, #660066 14%, #cc9900 100%);
+	padding: 5px;
+	margin: 0;
+	height:auto;
+	text-align: center;
+	color: deeppink;
+	text-shadow: 2px 2px 4px gray;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	margin:8px 0;
+	padding: 0;
+}
+
+nav li{
+	display:inline;
+	padding:5px;
+}
+
+nav a{
+	text-decoration:none;
+}
+
+nav a:link{ 
+	color:deepskyblue;
+}
+
+nav a:visited{
+	color:deepskyblue;
+}
+
+nav a:hover{
+	color:white;
+}
+
+nav a:active{
+	color:red;
+}
+
+nav .fa{
+	font-size: 2em;
+	margin: 5px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+/* </Navagation> */
+
+/* <Main> */
+main{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding:10px;
+}
+
+main h2, main h3{
+	color: deepskyblue;
+	opacity: 0.8;
+	text-shadow: 2px 2px 4px gray;
+	text-align: center;
+	margin:0;
+}
+
+main blockquote {
+	color: deepskyblue;
+}
+
+.home-hero{
+	background-image: url(images/header.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px;
+}
+
+.home-hero h2, .home-hero h3{
+	text-align: left;
+	text-shadow: 2px 2px 4px gray;
+	font-style: italic;
+}
+
+blockquote{
+	background-color: #eeeeee;
+	border-left:10px solid gray;
+	padding:30px;
+	color: deepskyblue;
+}
+
+/* </Main> */
+
+/* <Footer> */
+footer{
+	text-align: center;
+ 	background: linear-gradient(to top left, #660066 14%, #cc9900 100%);
+ 	border-left: 5px solid deepskyblue;
+}
+
+footer p{
+	color:deepskyblue;
+	font-style: italic;
+}
+
+footer small{
+	color:deeppink;
+	font-style: italic;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer a:link{
+	color: deepskyblue;
+	text-decoration: none;
+}
+
+footer a:visited{
+	color: deepskyblue;
+}
+
+footer a:hover{
+	color: white;
+}
+
+footer a:active{
+	color:red;
+}
+
+footer .fa{
+	background-color: none;
+	font-size: 4em;
+	margin: 5px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+/* </Footer> */
+
+/* <CSS without a media query--applies to all sizes unless overridden> */
+h1{
+	font-size: 4em;
+}
+
+/* </CSS without a media query--applies to all sizes unless overridden> */
+
+/*<CSS Adjustments for Tablets>*/
+@media only screen and (max-width: 1024px) {
+
+h1{
+	font-size: 1.8em;
+}
+
+}
+/* </CSS Adjustments for Tablets> */
+
+/* <CSS Adjustments for Smartphones> */
+@media only screen and (max-width: 768px) {
+
+h1{
+	font-size: 1.5em;
+}
+
+img{
+	display: block;
+	margin:0 auto;
+}
+
+/* </CSS Adjustments for Smartphones> */
+
+
+

@@ -1,0 +1,408 @@
+/* 																<Tay's Custom Style Sheet> 																	*/
+
+/*<Font>*/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+/* <Body> */	
+
+
+body {  	
+	font-family: "Helvetica", sans-serif;
+	color: black;
+	margin: 0;
+}			
+
+.welcome-section{
+	background-image: url(images/water.jpg);
+	padding:20px;
+	background-position: center;
+	background-size: cover;
+	height:275px;
+	text-shadow: 2px 2px 5px rgba(0 0 0 0 0.5);
+}
+
+#main-style{
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.about-me{
+	box-shadow: 5px 5px 10px gray;
+	border:1px solid lightblue;
+	padding: 10;
+}
+
+.home-hero{
+	background-image: url(images/nature.jpg);
+	height: 475px;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid red;
+	padding: 10;
+	box-shadow: 5px 5px 10px gray;
+}
+
+blockquote{
+	background-image: url(images/universe.jpg);
+	height: 175px;
+	background-size:cover;
+	background-position: center;
+	border-left:2px solid red;
+	border-right:2px solid lightblue;
+	border-top: 2px solid lightblue;
+	border-bottom: 2px solid red;
+
+	padding:15px;
+	text-shadow: 2px 2px 5px gray;
+	color: white;
+	font-weight: bold;
+	font-style: italic;
+	box-shadow: 5px 5px 10px gray;
+}
+
+blockquote h3{
+	color:lightblue;
+}
+
+h1{
+	font-family: "Savate", sans-serif;
+	color: white;
+	text-align: center;
+	text-shadow: 2px 2px 1px black;
+	background-:rgba(173 216 230 1);
+}
+
+h2{ 	
+	font-family: "Savate", sans-serif;
+	color: lightblue;
+	text-shadow: 1px 1px 3px black;
+}			
+
+h3{
+	font-family: "Savate", sans-serif;
+	color: black;
+	text-shadow: 2px 2px 5px rgba(0 0 0 0 0.5);
+}
+
+h4{
+	font-size: 18px;
+	font-family: "Savate", sans-serif;
+}
+
+
+/* <Header> */
+	
+
+header{ 	
+	font-family: "Savate", sans-serif;
+	color: black;
+	text-align: center;
+}			
+
+.logo{
+	display: block;
+	margin:0 auto;
+	max-width: 100%;
+}
+
+/* <Website Links> */
+
+						
+a:link{	
+	color:yellow;
+	text-decoration: none;	
+}		
+
+a:visited{
+	color:lightblue;	
+}
+
+a:hover{
+	color:black;	
+}
+
+a:active{
+	color: red;	
+}
+
+
+/* <Navagation> */
+
+
+nav{		
+    background: linear-gradient(to bottom right, #ffffff 0%, #33ccff 100%);
+	border-top: 5px solid black;
+	padding: 5px;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	margin:8px 0;
+	padding: 0;
+}
+
+
+nav li{
+	display:inline;
+	padding:5px;
+}
+
+
+nav a{				
+	
+}
+
+
+/* <Navagation Links> */
+
+
+nav a:link{	
+	color:black;
+}
+
+
+nav a:visited{
+	color:black;
+}
+
+
+nav a:hover{
+	color:blue;
+}
+
+
+nav a:active{
+	color:red;
+}
+
+
+/* <Main> */
+
+main{
+	margin: 30px auto;
+	padding:10px;
+	text-align: center;
+	max-width: 100%;
+}
+
+#resume{
+	text-align: left;
+	font-size: 12px;
+	width: 8.5in;
+	margin: 0 auto;
+	border:2px solid gray;
+	padding-top: 10px;
+	line-height: 1.5;
+	box-shadow: 5px 5px 10px white;
+	background-color:white;
+	max-width: 90%;
+}
+
+#resume-wrapper{
+	background-image: url(images/universe.jpg);
+	padding-bottom:10px;
+	background-position: center;
+	background-size: cover;
+}
+
+#resume-wrapper h1{
+	color: lightblue;
+}
+
+#portfolio{
+    box-shadow: 5px 5px 10px gray;
+    background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+
+}
+
+#portfolio-wrapper{
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    padding-bottom:10px;
+}
+
+#portfolio a:visited{
+	color: white;
+}
+#portfolio a:hover{
+	color: darkblue;
+}
+
+#portfolio a:active{
+	color: red;
+}
+
+#music-wrapper{
+    background: linear-gradient(to top, #000000 0%, #66ccff 100%);
+	box-shadow: 5px 5px 10px gray;
+	padding-bottom: 10px;
+	background-color: aliceblue;
+}
+
+#music-wrapper blockquote{
+	background-color: lightblue;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+
+#music-wrapper h1{
+	color:white;
+	box-shadow: 5px 5px 10px gray;
+	background-color: lightblue;
+	background-image: url(images/universe.jpg);
+}
+
+#music-wrapper h3{
+	color:white;
+	box-shadow: 5px 5px 10px gray;
+	background-image: url(images/universe.jpg);
+	padding: 10px;
+}
+
+#game-wrapper{
+	background-color: lightblue;
+	padding: 10px;
+}
+
+#game-wrapper h1{
+	color: black;
+	box-shadow: 5px 5px 10px white;
+}
+
+
+main a:link{
+	color: deepskyblue;
+	text-decoration: none;
+}
+
+main a:visited{
+	color: deepskyblue;
+}
+
+
+main a:hover{
+	color: grey;
+}
+
+
+main a:active{
+	color:red;
+}
+
+
+main .fa{
+	background-color: none;
+	font-size: 4em;
+	margin: 5px;
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+
+
+.circle-image{
+	border-radius: 50%;
+	display:block;
+	margin:0 auto;
+	border: 4px dashed black;
+	box-shadow: 5px 5px 10px gray;
+}
+
+
+/* <Footer> */
+
+
+footer{
+	border-top: 5px solid black;
+	text-align: center;
+	color: black;
+	margin: 0 auto;
+	padding-top: 10px;
+	background: linear-gradient(to bottom right, #ffffff 0%, #33ccff 100%);
+
+}
+
+footer a{
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer a:link{
+	text-align: center;
+	margin:0 auto;
+	color:white;
+}
+
+footer a:hover{
+	color:blue;
+}
+
+footer h3{
+	color:lightblue;
+	padding: 10px;	
+}
+
+footer .fa{
+	font-size: 4em;
+	margin: 0 auto;
+	padding:10px;
+	text-align: center;
+	box-shadow: 5px 5px 10px gray;
+	background-image: url(images/universe.jpg);
+	border-radius: 50%;
+	border: 4px dashed red;
+}
+
+/* <Buttons> */
+
+
+.my-button:link{
+	background-color:lightblue;
+	color:black;
+	border-radius: 50px;
+	border:1px solid #111111;
+	padding: 8px 15px;
+	margin:50px;
+}
+
+.my-button:hover{
+	background-color: grey;
+	text-decoration: none;
+}
+
+
+
+/* <CSS without a media query--applies to all sizes unless overridden> */
+
+
+h1{
+	font-size: 4em;
+}
+
+
+/*<CSS Adjustments for Tablets>*/
+
+
+@media only screen and (max-width: 1024px) {
+
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+
+
+/* <CSS Adjustments for Smartphones> */
+@media only screen and (max-width: 768px) {
+
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+
+
+/*													   <Tay's Custom Style Sheet> 																					*/

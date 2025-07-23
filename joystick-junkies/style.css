@@ -1,0 +1,271 @@
+@import 
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&display=swap');
+
+body{
+	 background-color:#ffffff;
+	 font-family:"Open Sans", sans-serif;
+	 margin:0;
+
+}
+
+h1,h2,h3{
+		 font-family:"play", sans-serif;
+		 color:#80d4ff;
+
+}
+
+h1{ 
+	font-size: 3.5em; 
+	margin: 0;
+
+}
+
+h2{
+	border-bottom:2px solid #1c2995;
+	display:flex;
+	padding:5px;
+	font-size:2em;
+	font-weight:100;
+}
+
+h3{
+	font-size: 1.7em;
+}
+
+header{
+	 background-color:#00195c;
+	 color:#ffffff;
+	 text-align:center;
+	 padding:20px;
+	 background: 
+	 radial-gradient(circle,
+	 	rgba(63, 94, 251, 0.78) 0%, 
+	 	rgba(252, 70, 107, 1) 100%);
+
+}
+
+header h1{
+	line-height:200%;
+	margin:0;
+	color:white;
+
+}
+
+nav{
+	font-weight:bold;
+  background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+	border-top:20px solid #ff80ff;
+	border-bottom:20px solid #33ffff;
+	text-align:center;
+	line-height:200%;
+
+}
+
+nav a{
+	text-decoration:none;
+
+}
+
+nav ul{
+	list-style-type:none;
+	margin:0;
+	padding:10px;
+}
+
+nav li{
+	display:inline;
+	padding:10px;
+}
+
+nav a:link{ 
+	color:darkred;
+
+}
+
+nav a:visited{
+	color:darkred;
+
+}
+
+nav a:hover{
+	color:teal;
+
+}
+
+nav a:active{
+	color:gold;
+
+}
+
+main{
+	max-width:1000px; 
+	margin: 0px auto; 
+	padding:10px;
+
+
+}
+
+footer{ 
+  max-width:1000px;	
+  margin:30px;	
+  padding:10px;	
+  font-style:italic;
+  text-align:center;
+	   
+}
+
+.logo{
+	max-width: 100%;
+	height: auto;
+	padding-top: 15px;
+
+}
+
+.logo:hover{
+	opacity:0.8;
+
+}
+
+	/*This is the CSS for the hero image*/
+.home-hero{ 
+	background-image: url(images/hero-image.jpg);
+	height: 300px;
+	background-size: cover;
+	background-position: top center;
+
+
+}
+
+.home-hero h1{ 
+	color:white;
+	text-shadow: 2px 2px 2px black;
+	text-align: center;
+	padding-top: 115px;
+	font-size: 3em;
+	font-weight: normal;
+
+
+}
+
+.float-right{
+	float:right;
+	max-width:40%;
+	height:auto;
+	box-shadow:50;
+	border:15px solid royalblue;
+	border-radius:100px;
+	margin:3%;
+
+}
+
+.float-left{
+	float:left;
+	max-width:40%;
+	height:auto;
+	box-shadow:100%;
+	border:15px solid midnightblue;
+	border-radius:80px;
+	margin:30px 30px 0;
+}
+
+a.press-me{ 
+	color:lightgoldenrodyellow;
+	border-radius: 4px;
+	text-decoration: none;
+	padding: 8px 25px;
+	font-weight:bold;
+
+}
+
+a.press-me:link{
+	background-color:#99ddff;
+
+}
+
+a.press-me:hover{
+	background-color:#ff66b3;
+}
+
+.text-box{
+	float:right;
+	max-width: 40%;
+	margin: 10px 20px;
+	background-color: #99ddff;
+	color:whitesmoke;
+	border-radius: 20%;
+	padding: 10px;
+	font-style: italic;
+	font-weight: bold;
+	border:20px dashed deeppink;
+
+}
+
+.text-box h2{
+	color: white;
+	border: bottom;
+	font-size: 1.5em;
+
+}
+
+@media only screen and (max-width: 1024px){
+/*The CSS will work ONLY IF the screen size is less than 1024px (tablets and smartphones) */
+	h1{
+		font-size: 2.5em;
+
+	}
+
+	h2{
+		font-size:1.5em;
+
+	}
+
+	h3{
+		font-size:1.3em;
+
+	}
+
+	main,
+	footer{
+		width: 90%;
+	}	 
+}
+
+@media only screen and (max-width: 768px){
+/*The CSS will work ONLY IF the screen size is less than 768px (smartphones only) */
+	h1{
+		font-size: 2em;
+	}
+
+	.home-hero{
+		height:125px;
+	}
+
+	.home-hero h1{
+		height: 125px;
+		font-size: 1.5em;
+		padding-top: 45px;
+	}
+	.float-right,
+	.float-left{
+		display:none;
+	}
+
+	.text-box{
+		float:none;
+		max-width: 100%;
+		display: block;
+	}
+
+	nav ul{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	nav li{
+		display:block;
+		padding:.5em .1em;
+		border-bottom: solid 1px grey;
+
+	}
+}
+

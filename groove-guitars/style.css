@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+/*Body*/
+body {  font-family: "Savate", sans-serif;
+			color: darkred;
+			margin:0;
+    background: linear-gradient(to top left, #996600 25%, #ffffff 72%);
+}	
+
+		{ font-family: "Josefin Sans", sans-serif;
+			color:  #660000;
+			}	
+
+/* header */
+header{ 
+    background: linear-gradient(to top left, #996600 25%, #ffffff 72%);
+
+
+}
+
+header h1{
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+
+
+}
+main h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+  border-bottom:2px solid darkred;
+	display:block;
+	padding:10px;
+	font-size:2em;
+	background-color:burlywood ;
+}
+
+/* Website Links except the nav */	
+a:link{
+	color:darkred;	
+}		
+a:visited{
+	color:darkred;	
+}
+a:hover{
+	color:darkslateblue;	
+}
+a:active{
+	color: burlywood;	
+}
+
+/*Navagation*/
+nav{
+  background: linear-gradient(to bottom right, #ffffff 46%, #cc9900 84%);
+	border-top: 3px solid darkred;
+	border-bottom: 3px solid darkred;
+	padding: 5px;
+}
+
+nav ul{
+	list-style-type:none;
+	text-align:center;
+	margin:8px 0;
+	padding: 0;
+}
+nav li{
+	display:inline;
+	padding:5px;
+}
+nav a{
+	text-decoration:none;
+}
+nav a:link{ 
+	color:brown;
+}
+nav a:visited{
+	color:brown;
+}
+nav a:hover{
+	color:black;
+}
+nav a:active{
+	color:darkorange;
+}
+
+/*Main*/
+main{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding: 10px;
+}
+
+/*Footer*/
+footer{
+	border-top: darkred 3px solid;
+	text-align:center;
+    background: linear-gradient(to top left, #996600 25%, #ffffff 72%);
+}
+
+footer a{
+	text-decoration: none;
+}
+.logo{
+	max-width: 200px;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#home-hero{
+	background-image: url(images/guitars.jpg);
+	height:400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-bottom:5px solid darkred; 
+
+}
+
+#home-hero h1{
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 2px 2px 2px darkred;
+	margin: 0;
+	padding: 10px;
+	background-color: rgb(159, 107, 73, 0.7);
+}
+
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+}
+
+form{
+	text-align: center;
+
+}
+table{
+  border-collapse:Collapse;
+  margin: 0 auto;
+  border: 5px solid rgb(159, 107, 73, 0.7);
+  color: whitesmoke;
+  
+
+
+
+}
+tr:nth-child(even){
+  background-color:  rgb(159, 107, 73, 0.7);
+  border-bottom: 5px solid darkred;
+}
+
+th,td{
+  background-color: rgb(159, 107, 73, 0.7);
+  color:white;
+  padding:10px;
+  border-bottom: 5px solid darkred;
+  border-left: 5px solid black; 
+  padding: 8px;
+
+}
+ 
+label{
+	float:left;
+	width:8em;
+	padding-right:1em;
+}
+
+input,textarea{
+	margin-bottom: 1em;
+	display: block;
+	background-color: burlywood;
+}
+
+input[type=submit]{
+	display:block;
+	background-color:burlywood;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+	font-size: 4em;
+ }
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+
+	}
+}
+
