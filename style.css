@@ -378,7 +378,7 @@ footer .fa{
 /* <CSS without a media query--applies to all sizes unless overridden> */
 
 
-h1{
+h1 h2 h3{
 	font-size: 4em;
 }
 
@@ -388,7 +388,7 @@ h1{
 
 @media only screen and (max-width: 1024px) {
 
-	h1{
+	h1 h2 h3{
 		font-size: 1.8em;
 	}
 }
@@ -398,7 +398,7 @@ h1{
 /* <CSS Adjustments for Smartphones> */
 @media only screen and (max-width: 768px) {
 
-	h1{
+	h1 h2 h3{
 		font-size: 1.5em;
 	}
 }
