@@ -45,7 +45,6 @@ body {
 
 blockquote{
 	background-image: url(images/universe.jpg);
-	height: 175px;
 	background-size:cover;
 	background-position: center;
 	border-left:2px solid red;
@@ -243,7 +242,6 @@ main{
 #music-wrapper blockquote{
 	background-color: lightblue;
 	margin: 0 auto;
-	font-size: 20px;
 }
 
 
