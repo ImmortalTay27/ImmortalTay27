@@ -221,9 +221,14 @@ main{
     padding-bottom:10px;
 }
 
+#portfolio a:link{
+	color: white;
+}
+
 #portfolio a:visited{
 	color: white;
 }
+
 #portfolio a:hover{
 	color: darkblue;
 }
