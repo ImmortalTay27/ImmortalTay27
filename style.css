@@ -276,12 +276,12 @@ main{
 
 
 main a:link{
-	color: deepskyblue;
+	color: orange;
 	text-decoration: none;
 }
 
 main a:visited{
-	color: deepskyblue;
+	color: orange;
 }
 
 
