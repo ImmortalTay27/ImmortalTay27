@@ -57,7 +57,7 @@ blockquote{
 	color: white;
 	font-weight: bold;
 	font-style: italic;
-	box-shadow: 5px 5px 10px gray;
+	box-shadow: 5px 5px 10px lightblue;
 }
 
 blockquote h3{
@@ -210,6 +210,12 @@ main{
 	color: lightblue;
 }
 
+#portfolio .col-sm-6 p{
+	font-weight: bold;
+    padding:10px;
+    text-align: left;
+}
+
 #portfolio{
     box-shadow: 5px 5px 10px gray;
     background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
@@ -262,6 +268,26 @@ main{
 	box-shadow: 5px 5px 10px gray;
 	background-image: url(images/universe.jpg);
 	padding: 10px;
+}
+
+.video-container{
+	overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #game-wrapper{
