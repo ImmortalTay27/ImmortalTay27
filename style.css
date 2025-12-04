@@ -7,13 +7,15 @@
 /* <Body> */	
 
 
-body {  	
+body 
+{  	
 	font-family: "Helvetica", sans-serif;
 	color: black;
 	margin: 0;
 }			
 
-.welcome-section{
+.welcome-section
+{
 	background-image: url(images/water.jpg);
 	padding:20px;
 	background-position: center;
@@ -93,14 +95,16 @@ h4{
 /* <Header> */
 	
 
-header{ 	
+header
+{ 	
 	font-family: "Savate", sans-serif;
 	color: black;
 	text-align: center;
 	padding: 10px;
 }			
 
-.logo{
+.logo
+{
 	display: block;
 	margin:0 auto;
 	max-width: 100%;
@@ -109,20 +113,24 @@ header{
 /* <Website Links> */
 
 						
-a:link{	
+a:link
+{	
 	color:yellow;
 	text-decoration: none;	
 }		
 
-a:visited{
+a:visited
+{
 	color:lightblue;	
 }
 
-a:hover{
+a:hover
+{
 	color:black;	
 }
 
-a:active{
+a:active
+{
 	color: red;	
 }
 
@@ -130,13 +138,15 @@ a:active{
 /* <Navagation> */
 
 
-nav{		
+nav
+{		
     background: linear-gradient(to bottom right, #ffffff 0%, #33ccff 100%);
 	border-top: 5px solid black;
 	padding: 10px;
 }
 
-nav ul{
+nav ul
+{
 	list-style-type:none;
 	text-align:center;
 	margin:8px 0;
@@ -144,13 +154,15 @@ nav ul{
 }
 
 
-nav li{
+nav li
+{
 	display:inline;
 	padding:5px;
 }
 
 
-nav a{				
+nav a
+{				
 	
 }
 
@@ -158,36 +170,42 @@ nav a{
 /* <Navagation Links> */
 
 
-nav a:link{	
+nav a:link
+{	
 	color:black;
 }
 
 
-nav a:visited{
+nav a:visited
+{
 	color:black;
 }
 
 
-nav a:hover{
+nav a:hover
+{
 	color:blue;
 }
 
 
-nav a:active{
+nav a:active
+{
 	color:red;
 }
 
 
 /* <Main> */
 
-main{
+main
+{
 	margin:30px auto;
 	padding:10px;
 	text-align:center;
 	max-width:1000px;
 }
 
-#resume{
+.resume
+{
 	text-align: left;
 	font-size: 12px;
 	width: 8.5in;
@@ -200,64 +218,75 @@ main{
 	max-width: 90%;
 }
 
-#resume-wrapper{
-	background-image: url(images/universe.jpg);
-	padding-bottom:10px;
-	background-position: center;
-	background-size: cover;
+.resume-wrapper
+{
+	background-image:		url(images/universe.jpg);
+	padding-bottom:			10px;
+	background-position:	center;
+	background-size: 		cover;
 }
 
-#resume-wrapper h1{
+.resume-wrapper h1
+{
 	color: lightblue;
 }
 
-#portfolio .col-sm-6 p{
+#portfolio .col-sm-6 p
+{
 	font-weight: bold;
     padding:10px;
     text-align: left;
 }
 
-#portfolio{
+#portfolio
+{
     box-shadow: 5px 5px 10px gray;
     background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
-
 }
 
-#portfolio-wrapper{
+#portfolio-wrapper
+{
     background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
     padding-bottom:10px;
 }
 
-#portfolio a:link{
+#portfolio a:link
+{
 	color: white;
 }
 
-#portfolio a:visited{
+#portfolio a:visited
+{
 	color: white;
 }
 
-#portfolio a:hover{
+#portfolio a:hover
+{
 	color: darkblue;
 }
 
-#portfolio a:active{
+#portfolio a:active
+{
 	color: red;
 }
 
-#music-wrapper{
+#music-wrapper
+{
     background: linear-gradient(to top, #000000 0%, #66ccff 100%);
 	box-shadow: 5px 5px 10px gray;
 	padding-bottom: 10px;
 	background-color: aliceblue;
 }
 
-#music-wrapper blockquote{
+#music-wrapper blockquote
+{
 	background-color: lightblue;
 	margin: 0 auto;
 }
 
 
-#music-wrapper h1{
+#music-wrapper h1
+{
 	color:white;
 	box-shadow: 5px 5px 10px gray;
 	background-color: lightblue;
